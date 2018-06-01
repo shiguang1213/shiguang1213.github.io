@@ -1,0 +1,62 @@
+html{
+	font-size: 62.5%;
+	background-color: #68cdd5;
+	overflow: hidden;
+}
+
+.text{
+	color: #fff;
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-family: simsun;
+}
+
+.log{
+	text-align: center;
+	padding-top: 2.9rem;
+	padding-bottom: 6rem;
+}
+
+.back{
+	position: relative;
+	left: 1.5rem;
+	top: 0.5rem;
+}
+
+.icon01{
+	position: absolute;
+	bottom: 17%;
+	left: 15%;
+	text-align: center;
+}
+
+.icon02{
+	position: absolute;
+	bottom: 17%;
+	right: 15%;
+	text-align: center;
+}
+
+.text01{
+	color: #fff;
+	font-size: 1.7rem;
+}
+
+.back>img{
+	width: 2.9rem;
+}
+
+.log>img{
+	width: 9.6rem;
+}
+
+.icon01>img{
+	width: 5rem;
+}
+
+.icon02>img{
+	width: 5rem;
+}
