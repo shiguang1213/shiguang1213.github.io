@@ -1,0 +1,71 @@
+html,body{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+}
+
+.page{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header{
+	background-color: #5fc0cd;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 3.75rem;
+}
+
+.content{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 3.75rem;
+	background-color: #eff0f4;
+}
+
+.close{
+	position: absolute;
+	left: 1rem;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.sign-up{
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.login{
+	position: absolute;
+	left: 50%;
+	top: 50%; 
+	font-size: 1.3rem;
+	margin-left: -20.805px;
+	margin-top: -13.5px;
+}
+
+.close, .sign-up{
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+.close, .sign-up, .login{
+	color: #fff;
+}
+
+.forget{
+	text-decoration: none;
+	color: #a7d8e1;
+	position: absolute;
+	right: 1rem;
+}
