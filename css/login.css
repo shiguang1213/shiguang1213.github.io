@@ -49,14 +49,14 @@ body{
 	position: absolute;
 	left: 50%;
 	top: 50%; 
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	margin-left: -20.805px;
 	margin-top: -13.5px;
 }
 
 .close, .sign-up{
 	text-decoration: none;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 .close, .sign-up, .login{
@@ -68,4 +68,71 @@ body{
 	color: #a7d8e1;
 	position: absolute;
 	right: 1rem;
+}
+
+.input-tel, .input-pass, .input-login{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: none;
+	outline: 0 none;
+}
+
+.input, .input-login-box{
+	height: 2.98rem;
+}
+
+.input{
+	background-color: #fff;
+	margin-top: 0.426rem;
+	position: relative;
+}
+
+.input-login-box{
+	background-color: #5fc0cd;
+	margin-top: 2.13rem;
+	margin-bottom: 0.5rem;
+	position: relative;
+}
+
+.input-login{
+	background-color: #5fc0cd;
+	color: #fff;
+	font-size: 1.2rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	padding-left: 5.5px;
+	margin-top: -13.5px;
+	margin-left: -30.54px;
+}
+
+.input-pass, .input-tel{
+	font-size: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 79.66px;
+	margin-top: -10px;
+	padding-top: 0;
+}
+
+.input-pass::-webkit-input-placeholder, .input-tel::-webkit-input-placeholder{
+	color: #cbcbcb;
+}
+
+.icon{
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 25px;
+	margin-top: -10px;
+}
+
+.line{
+	position: absolute;
+	width: 1px;
+	height: 26px;
+	background-color: #cbcbcb;
+	left: 63.16px;
+	top: 50%;
+	margin-top: -13px;
 }
