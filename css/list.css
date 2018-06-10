@@ -237,13 +237,12 @@ body {
 }
 
 .data {
-	height: 33.333%;
-}
-
-.data1 {
-	float: left;
-	margin-top: 6.49px;
 	margin-left: 39px;
+	margin-top: 6.49px;
+	height: calc(33.333% - 6.49px);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
 	color: #333;
 	font-size: 15px;
 	font-weight: 500;
@@ -264,9 +263,10 @@ body {
 }
 
 .price {
-	float: right;
-	margin-top: 4.49px;
-	margin-right: 40px;
+	position: absolute;
+	top: 50%;
+	right: 40px;
+	margin-top: -11px;
 	color: #e63b0e;
 	font-weight: 500;
 }
@@ -274,8 +274,8 @@ body {
 .price:after {
 	content: "";
 	position: absolute;
-	margin-top: 6px;
-	right: 20px;
+	margin-top: 4px;
+	margin-left: 10px;
 	width: 13px;
 	height: 13px;
 	border-top: 2px solid #5fc0cd;
