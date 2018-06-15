@@ -240,14 +240,19 @@ body {
 	margin-left: 39px;
 	margin-top: 6.49px;
 	height: calc(33.333% - 6.49px);
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden;
+	
 	color: #333;
 	font-size: 15px;
 	font-weight: 500;
 }
 
+.data > div {
+	width: calc(100% - 110px);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+
+}
 .add > span {
 	float: left;
 	margin-left: 7.5px;
@@ -264,9 +269,9 @@ body {
 
 .price {
 	position: absolute;
-	top: 50%;
 	right: 40px;
-	margin-top: -11px;
+	top: 39px;
+
 	color: #e63b0e;
 	font-weight: 500;
 }
